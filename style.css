@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: black;
+  display: grid;
+  place-items: center;
+  color: white;
+}
+
+#container {
+  height: 400px;
+  width: 700px;
+  background-color: #6d5ee0;
+  border-radius: 25px;
+ box-shadow: 2px 2px 50px 2px white;
+}
+
+p {
+  margin-left: 80px;
+  margin-top: 15px;
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+
+h3 {
+  margin-left: 80px;
+  margin-top: 55px;
+  background-color: #fff;
+  color: green;
+  width: 180px;
+  place-items: center;
+  display: grid;
+  border-radius: 5px;
+}
+
+.display{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 25px;
+  color: black;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+#box1{
+ height: 80px;
+ width: 80px;
+ background-color: #fff;
+ display: grid;
+ place-items: center;
+ border-radius: 5px;
+
+}
+#box2{
+ height: 80px;
+ width: 80px;
+ background-color: #fff;
+ display: grid;
+ place-items: center;
+ border-radius: 5px;
+
+}
+#box3{
+ height: 80px;
+ width: 80px;
+ background-color: #fff;
+ display: grid;
+ place-items: center;
+ border-radius: 5px;
+
+}
+
+#dot{
+  font-size: 50px;
+  margin-left: 245px;
+  margin-top: -80px;
+
+}
+#dot1{
+  font-size: 50px;
+  margin-left: 445px;
+  margin-top: -60px;
+
+}
+
+#det{
+  margin-top: 50px;
+  margin-left: 80px;
+  font-size: 27px;
+  font-weight: 300;
+}
